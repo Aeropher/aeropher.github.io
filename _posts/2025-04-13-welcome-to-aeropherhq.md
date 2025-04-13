@@ -11,5 +11,6 @@ Welcome to AeropherHQ! This is the central hub for all my technical content, pro
 - Cloud infrastructure tips and best practices
 - 3D printing projects and guides
 - Productivity systems for technical professionals
+- Fun ideas and thoughts that I decided were worth sharing for some reason
 
-Stay tuned for regular content about [specific topic you're starting with].
+Stay tuned for regular content.

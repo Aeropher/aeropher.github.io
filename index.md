@@ -13,6 +13,7 @@ Technical expertise and creative projects from Aeropher. Explore articles and re
 - [3D Printing](/3d-printing/) - Projects, tutorials, and resources
 - [Productivity](/productivity/) - Systems, tools, and workflow optimization
 - [Projects](/projects/) - Featured technical projects
+- [Fun](/fun/) - Opinion pieces, jokes, and random thoughts
 - [About](/about/) - More about me and my background
 
 ## Recent Posts
