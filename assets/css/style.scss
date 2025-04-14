@@ -5,11 +5,56 @@
 
 /* Color Variables */
 :root {
+  /* Light mode (default) */
   --color-primary: #1E3A8A;
   --color-secondary: #0D9488;
   --color-background: #F1F5F9;
   --color-text: #334155;
   --color-accent: #F97316;
+  
+  /* Footer and other elements */
+  --footer-background: var(--color-primary);
+  --footer-text: white;
+  --header-background: var(--color-primary);
+  --header-text: white;
+  --code-background: #2d3748;
+  --code-text: #e2e8f0;
+}
+
+/* Dark mode colors - for system preference */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-primary: #60A5FA; /* Lighter blue for better contrast */
+    --color-secondary: #2DD4BF; /* Brighter teal for dark backgrounds */
+    --color-background: #1E293B; /* Dark blue-gray background */
+    --color-text: #E2E8F0; /* Light gray text */
+    --color-accent: #FB923C; /* Slightly lighter orange */
+    
+    /* Footer and other elements */
+    --footer-background: #0F172A; /* Darker than background */
+    --footer-text: #E2E8F0;
+    --header-background: #0F172A; /* Darker than background */
+    --header-text: #E2E8F0;
+    --code-background: #111827; /* Very dark for code blocks */
+    --code-text: #F1F5F9; /* Very light text for code */
+  }
+}
+
+/* Dark mode colors - for manual toggle */
+:root[data-theme="dark"] {
+  --color-primary: #60A5FA; /* Lighter blue for better contrast */
+  --color-secondary: #2DD4BF; /* Brighter teal for dark backgrounds */
+  --color-background: #1E293B; /* Dark blue-gray background */
+  --color-text: #E2E8F0; /* Light gray text */
+  --color-accent: #FB923C; /* Slightly lighter orange */
+  
+  /* Footer and other elements */
+  --footer-background: #0F172A; /* Darker than background */
+  --footer-text: #E2E8F0;
+  --header-background: #0F172A; /* Darker than background */
+  --header-text: #E2E8F0;
+  --code-background: #111827; /* Very dark for code blocks */
+  --code-text: #F1F5F9; /* Very light text for code */
 }
 
 /* Base Styles */
@@ -20,15 +65,15 @@ body {
 
 /* Header */
 .site-header {
-  background-color: var(--color-primary);
+  background-color: var(--header-background);
 }
 
 .site-title, .site-title:visited {
-  color: white;
+  color: var(--header-text);
 }
 
 .site-nav .page-link {
-  color: white;
+  color: var(--header-text);
 }
 
 /* Links */
@@ -60,8 +105,8 @@ a:hover {
 
 /* Footer */
 .site-footer {
-  background-color: var(--color-primary);
-  color: white;
+  background-color: var(--footer-background);
+  color: var(--footer-text);
 }
 
 /* Post headers */
@@ -83,8 +128,49 @@ blockquote {
 
 /* Code blocks */
 pre, code {
-  background-color: #2d3748;
-  color: #e2e8f0;
+  background-color: var(--code-background);
+  color: var(--code-text);
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  color: var(--header-text);
+  position: relative;
+  top: 0;
+  right: 0;
+  transition: transform 0.3s ease;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  transform: rotate(15deg);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* For mobile view */
+@media screen and (max-width: 600px) {
+  .theme-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    margin: 0;
+  }
+}
+
+/* Smooth transitions when changing themes */
+body, a, .site-header, .site-footer, .btn, button, pre, code, blockquote {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Utility Classes */
