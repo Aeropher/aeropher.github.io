@@ -13,4 +13,4 @@ Just to get this out of the way: I think that when you use AI you have to use it
 
 I then used Jekyll which is a "free and open-source static site generator written in Ruby". Web design is not my forte or interest so I'm happy to use a tool that can take markdown and make it presentable. So this is what the repo looks like and each time I commit to _posts and push, I get a post published to the site. Wonderful.
 
-![alt text](image.png)
+![alt text](..\assets\images\image.png)
