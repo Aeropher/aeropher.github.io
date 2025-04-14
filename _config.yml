@@ -1,2 +1,20 @@
 title: AeropherHQ
 description: Technical expertise and creative projects from Aeropher
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima theme settings
+minima:
+  skin: classic
+  
+# Social links
+social_links:
+  github: aeropher
+
+# Google Analytics
+google_analytics: # Optional - add if you have a GA ID
