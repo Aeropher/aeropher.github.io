@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "Beginning My 3D Printing Journey"
+description: "It actuallys tarted late 2020, lets see what I can remember"
 date: 2025-04-13
+image:  '/images/theme_3dprinting.jpg'
+tags:   [3d, printing, making]
 categories: 3d-printing
 ---
 
