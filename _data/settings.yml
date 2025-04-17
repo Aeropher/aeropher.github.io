@@ -11,12 +11,16 @@ menu-settings:
   menu-items:
     - title: 'Home'
       url: '/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Contact Me'
-      url: '/contact/'
-    - title: 'Style Guide'
-      url: '/styleguide/'
+    - title: 'DevOps'
+      url: '/devops/'
+    - title: 'Fun'
+      url: '/fun/'
+    - title: 'Productivity'
+      url: '/productivity/'
+    - title: 'projects'
+      url: '/projects/'
+    - title: '3D Printing'
+      url: '/3d-printing/'
 
 
 #-------------------------------
