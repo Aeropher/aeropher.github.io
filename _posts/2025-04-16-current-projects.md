@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "Current Projects and Future Plans"
+description: "todo..."
 date: 2025-04-16
+image:  '/images/theme_projects.jpg'
+tags:   [project]
 categories: projects
 ---
 
