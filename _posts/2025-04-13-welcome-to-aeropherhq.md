@@ -2,6 +2,7 @@
 layout: post
 title: "Welcome to AeropherHQ"
 date: 2025-04-13
+image: '/images/01-1.jpg'
 categories: general
 ---
 

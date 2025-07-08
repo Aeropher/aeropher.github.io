@@ -2,6 +2,7 @@
 layout: post
 title: "Setting up the blog with GitHub Pages"
 date: 2025-04-15
+image: '/images/100.jpg'
 categories: projects
 ---
 

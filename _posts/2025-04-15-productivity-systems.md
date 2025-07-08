@@ -2,6 +2,7 @@
 layout: post
 title: "Productivity Systems"
 date: 2025-04-15
+image: '/images/140.jpg'
 categories: productivity
 ---
 

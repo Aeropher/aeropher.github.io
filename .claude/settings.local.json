@@ -12,7 +12,8 @@
       "WebFetch(domain:caffeineaddledminds.co.uk)",
       "WebFetch(domain:www.youtube.com)",
       "WebFetch(domain:consent.youtube.com)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(ls:*)"
     ],
     "deny": []
   }
