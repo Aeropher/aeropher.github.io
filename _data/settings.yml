@@ -17,10 +17,13 @@ menu-settings:
       url: '/fun/'
     - title: 'Productivity'
       url: '/productivity/'
-    - title: 'projects'
+    - title: 'Projects'
       url: '/projects/'
     - title: '3D Printing'
       url: '/3d-printing/'
+    - title: '<i class="fa-brands fa-github"></i> GitHub'
+      url: 'https://github.com/aeropher'
+      external: true
 
 
 #-------------------------------
@@ -52,14 +55,14 @@ contact:
 #-------------------------------
 # Footer section
 social:
-- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
-- {icon: "fa-brands fa-facebook-f", name: "Facebook", link: "https://facebook.com"}
-- {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
-- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com"}
-- {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com"}
-- {icon: "fa-brands fa-youtube", name: "Youtube", link: "https://youtube.com"}
-- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com"}
-- {icon: "fa-brands fa-vimeo-v", name: "Vimeo", link: "https://vimeo.com/"}
+- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com/aeropher"}
+# - {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
+# - {icon: "fa-brands fa-facebook-f", name: "Facebook", link: "https://facebook.com"}
+# - {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
+# - {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com"}
+# - {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com"}
+# - {icon: "fa-brands fa-youtube", name: "Youtube", link: "https://youtube.com"}
+# - {icon: "fa-brands fa-vimeo-v", name: "Vimeo", link: "https://vimeo.com/"}
 
 # Example of adding a new link to the footer - {icon: "fa-brands fa-mastodon", name: "Mastodon", link: "https://mastodon.social/"}
 # Other icons can be found at https://fontawesome.com/icons

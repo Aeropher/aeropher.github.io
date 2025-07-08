@@ -7,10 +7,33 @@ image: '/images/60.jpg'
 
 # About AeropherHQ
 
-Hi, here I write stuff. Apparently you have to do an about page so here it is...
+Hi, I'm Alex! Welcome to my digital space where I share my thoughts on DevOps, coding, 3D printing, productivity, and various tech adventures.
 
+## Find Me on GitHub
 
-Hi, my name is Alex. Sin tantum modo ad indicia veteris memoriae virtute cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam. Serpere genere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias; Si longus, levis. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari disseretur inter.
+<div style="display: flex; align-items: center; margin: 30px 0; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+  <div style="margin-right: 20px;">
+    <a href="https://github.com/aeropher" target="_blank" rel="noopener">
+      <img src="https://github.com/aeropher.png" alt="GitHub Profile" style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid #6e5494;">
+    </a>
+  </div>
+  <div>
+    <h3 style="margin: 0 0 10px 0;"><a href="https://github.com/aeropher" target="_blank" rel="noopener" style="color: #6e5494;">@aeropher</a></h3>
+    <p style="margin: 0;">Check out my projects and contributions on GitHub</p>
+  </div>
+</div>
+
+## What I'm Working On
+
+I'm passionate about automation, infrastructure as code, and building tools that make developers' lives easier. When I'm not coding, you'll find me experimenting with my 3D printer or exploring new productivity systems.
+
+## GitHub Stats
+
+<div style="text-align: center; margin: 40px 0;">
+  <img src="https://github-readme-stats.vercel.app/api?username=aeropher&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117" alt="GitHub Stats" style="margin-bottom: 20px;">
+  <br>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aeropher&theme=dark&hide_border=true&background=0d1117" alt="GitHub Streak Stats">
+</div>
 
 ![Time to think]({{site.baseurl}}/images/501.jpg)
 *Minimalism / [Unsplash](https://unsplash.com/)*
