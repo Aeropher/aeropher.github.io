@@ -2,7 +2,8 @@
 layout: post
 title: "DevOps Best Practices"
 date: 2025-04-18
-categories: devops
+categories: software-engineering
+tags: [devops, automation, infrastructure]
 ---
 
 # DevOps Best Practices

@@ -7,7 +7,7 @@ categories: general
 
 Welcome to AeropherHQ! This is the central hub for all my technical content, projects, and resources. Here's what you can expect to find:
 
-- DevOps automation techniques and tools
+- Software engineering and automation techniques
 - Cloud infrastructure tips and best practices
 - 3D printing projects and guides
 - Productivity systems for technical professionals

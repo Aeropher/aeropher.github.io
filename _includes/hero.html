@@ -12,6 +12,15 @@
       {% if site.data.settings.hero.description %}
         <p class="hero__desc">{{ site.data.settings.hero.description }}</p>
       {% endif %}
+      {% if site.data.settings.hero.buttons %}
+        <div class="hero__buttons">
+          {% for button in site.data.settings.hero.buttons %}
+            <a href="{{ button.url }}" class="button button--primary" {% if button.external %}target="_blank" rel="noopener"{% endif %}>
+              {% if button.icon %}<i class="{{ button.icon }}"></i> {% endif %}{{ button.text }}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
     </div>
   </div>
 </section>
@@ -25,8 +34,17 @@
       {% if site.data.settings.hero.description %}
         <p class="hero__desc">{{ site.data.settings.hero.description }}</p>
       {% endif %}
+      {% if site.data.settings.hero.buttons %}
+        <div class="hero__buttons">
+          {% for button in site.data.settings.hero.buttons %}
+            <a href="{{ button.url }}" class="button button--primary" {% if button.external %}target="_blank" rel="noopener"{% endif %}>
+              {% if button.icon %}<i class="{{ button.icon }}"></i> {% endif %}{{ button.text }}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
     </div>
   </div>
 </section>
 {% endif %}
-<!-- begin hero -->
+<!-- end hero -->

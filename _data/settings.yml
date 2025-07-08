@@ -11,8 +11,8 @@ menu-settings:
   menu-items:
     - title: 'Home'
       url: '/'
-    - title: 'DevOps'
-      url: '/devops/'
+    - title: 'Software Engineering'
+      url: '/software-engineering/'
     - title: 'Fun'
       url: '/fun/'
     - title: 'Productivity'
@@ -36,9 +36,21 @@ author:
 #-------------------------------
 # Hero Settings
 hero:
-  title: Wow
-  description: Is this what the inside of my head looks like???
+  title: Welcome to AeropherHQ
+  description: Explore my projects, podcasts, and technical adventures
   image: '/images/01.jpg'
+  buttons:
+    - text: Check Out Caffeine Addled Minds
+      icon: fa-solid fa-podcast
+      url: /caffeine-addled-minds/
+    - text: Watch Bedrock Bites
+      icon: fa-brands fa-youtube
+      url: https://youtube.com/@AeropherXD
+      external: true
+    - text: View My GitHub
+      icon: fa-brands fa-github
+      url: https://github.com/aeropher
+      external: true
 
 
 #-------------------------------
