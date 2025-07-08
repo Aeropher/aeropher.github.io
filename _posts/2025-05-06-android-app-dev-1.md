@@ -33,6 +33,7 @@ I'm mightily impressed with what I've been able to achieve, but I remain cautiou
 My concern is for juniors or hobbyists who might not have that foundational knowledge. They could end up producing garbage in their full-time jobs or struggle indefinitely with their projects.
 
 My approach evolved over time:
+
 - Initially, I was very targeted with prompts (which honestly gets the best results)
 - Later, I got bolder with requests like "write all the unit tests" - these broad prompts aren't as effective but provide useful starting points
 - I actually restarted the app once because I felt the AI had engineered the class structure poorly
@@ -62,6 +63,7 @@ After three weeks of coding for 1-2 hours most days, I finally have a version in
 I've set up a GitHub repo with GitHub Actions that automatically creates a build with each push to main - this is bread and butter stuff from my day job, though I typically use Azure DevOps there.
 
 But the Google ecosystem has its quirks:
+
 - Google Cloud is where I need to create a service account for my app (which is set up in Google Play Console)
 - Firebase created additional resources in Google Cloud I didn't know about
 - Now I have two service accounts - one I created and one by Firebase
