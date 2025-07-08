@@ -2,9 +2,13 @@
 layout: post
 title: "Caffeine Addled Minds: A Creative Collective of Podcasts and Content"
 date: 2025-07-08
-image: '/images/604.jpg'
+image: '/images/camlogos/logo_caffeine_addled_minds.png'
 tags: [projects, podcasts, creative, media]
 ---
+
+<div style="text-align: center; margin-bottom: 30px;">
+  <img src="/images/camlogos/logo_caffeine_addled_minds.png" alt="Caffeine Addled Minds Logo" style="max-width: 400px; width: 100%;">
+</div>
 
 I'm excited to share about a creative group I'm involved with called **Caffeine Addled Minds** - a media collective founded by two brothers that has grown into a diverse content network featuring multiple podcasts and YouTube channels.
 
@@ -16,23 +20,35 @@ Caffeine Addled Minds is a creative media group that produces entertaining conte
 
 ### 🥃 Caskheads
 
+<img src="/images/camlogos/logo_caskheads.png" alt="Caskheads Logo" style="float: right; margin: 0 0 20px 20px; max-width: 150px;">
+
 Our flagship podcast where we dive into the world of whisky production with a light-hearted approach. Perfect for both whisky enthusiasts and newcomers who want to learn about this fascinating spirit without the pretentiousness often associated with it.
 
 [Listen on Spotify](https://open.spotify.com/show/1Tia5ylGUok6v1yatg1lws)
 
+<div style="clear: both;"></div>
+
 ### 📻 GNSRadio
+
+<img src="/images/camlogos/logo_gns_radio.png" alt="GNS Radio Logo" style="float: right; margin: 0 0 20px 20px; max-width: 150px;">
 
 A unique dystopian storytelling experience told entirely through radio host announcements. This innovative format creates an immersive narrative that unfolds through seemingly routine broadcasts in a world that's anything but ordinary.
 
 [Listen on Spotify](https://open.spotify.com/show/6V8Lv6I7PTN2t2HKcsBbJy)
 
+<div style="clear: both;"></div>
+
 ### 🎙️ "Dude, you good?"
+
+<img src="/images/camlogos/logo_dude_you_good.png" alt="Dude You Good Logo" style="float: right; margin: 0 0 20px 20px; max-width: 150px;">
 
 A millennial conversation podcast where two friends discuss their interests, experiences, and the quirks of modern life. It's the kind of conversation you'd have with your best friend over coffee - genuine, funny, and relatable.
 
 [Listen on Spotify](https://open.spotify.com/show/45pf8pvGVSyR6wJeOzeqOO)
 
 For those wanting even more candid content, we also produce **"Dude you good? After Dark!"** - a more unfiltered version where we really let loose.
+
+<div style="clear: both;"></div>
 
 ## YouTube Presence
 
