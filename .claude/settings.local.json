@@ -8,7 +8,10 @@
       "Bash(find:*)",
       "Bash(bundle exec:*)",
       "Bash(jekyll build)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "WebFetch(domain:caffeineaddledminds.co.uk)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:consent.youtube.com)"
     ],
     "deny": []
   }
