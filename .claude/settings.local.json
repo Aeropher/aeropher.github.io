@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(diff:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(bundle exec:*)",
+      "Bash(jekyll build)",
+      "Bash(rm:*)"
+    ],
+    "deny": []
+  }
+}
