@@ -19,17 +19,21 @@ Instead of starting with an endless list of tasks, capacity-first planning begin
 Here's the simple three-step process that makes this approach so effective:
 
 ### 1. Set Your Daily Capacity
+
 Each morning, you reflect on your available time and energy. Had a busy morning with meetings? Maybe you have 4 focused hours. Clear schedule and feeling great? Perhaps 8 hours. There's no judgment—just honest assessment.
 
 ### 2. Visual Progress Tracking
+
 As you plan your day, a progress bar shows how much of your capacity you've allocated. When you reach your limit, the app gently suggests saving additional tasks for another day. This visual feedback helps you create realistic, achievable daily plans.
 
 ### 3. The "Right Now" Interface
+
 When it's time to work, RightNow presents one simple question: "What should I do right now?" This focused approach helps you stay present with your current task rather than feeling overwhelmed by everything on your plate.
 
 ## Real-World Impact
 
 Since implementing this approach, our beta users report:
+
 - 73% higher task completion rates
 - Reduced end-of-day stress and guilt
 - Better estimation skills over time
@@ -58,6 +62,7 @@ One unexpected benefit of capacity-first planning is how it naturally improves y
 ## Is This Approach Right for You?
 
 Capacity-first planning works especially well if you:
+
 - Feel overwhelmed by long task lists
 - Want to end each day with a sense of accomplishment
 - Prefer realistic planning over aspirational goals
