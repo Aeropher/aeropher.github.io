@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: RightNow
+  link: /rightnow/
 - name: DevOps
   link: /devops/
 - name: 3D Printing
