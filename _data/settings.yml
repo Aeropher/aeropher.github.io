@@ -15,6 +15,8 @@ menu-settings:
       url: '/caffeine-addled-minds/'
     - title: 'Apps'
       url: '/apps/'
+    - title: 'Support Me'
+      url: '/support-me/'
     - title: '<i class="fa-brands fa-github"></i> GitHub'
       url: 'https://github.com/aeropher'
       external: true
