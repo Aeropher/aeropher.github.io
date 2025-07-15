@@ -4,7 +4,7 @@ title: "The Technical Journey: Building an Offline-First Flutter App with Hive a
 date: 2025-01-28
 categories: [development, rightnow, flutter]
 tags: [flutter, firebase, hive, offline-first, mobile-development]
-image: assets/images/offline-first.jpg
+image: images/612.jpg
 featured: true
 ---
 
