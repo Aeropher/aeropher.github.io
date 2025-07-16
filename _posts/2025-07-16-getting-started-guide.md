@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Started with RightNow: Your First Day"
-date: 2025-01-16 03:00:00 +0000
+date: 2025-07-16 03:00:00 +0000
 categories: guides
 tags: [tutorial, getting-started, workflow]
 image: '/images/610.jpg'

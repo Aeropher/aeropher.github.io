@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introduction to RightNow: A Capacity-First Productivity App"
-date: 2025-01-16 00:00:00 +0000
+date: 2025-07-16 00:00:00 +0000
 categories: introduction
 tags: [productivity, task-management, flutter]
 image: '/images/600.jpg'

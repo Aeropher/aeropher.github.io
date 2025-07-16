@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Core Features Walkthrough: The Complete RightNow Experience"
-date: 2025-01-16 01:00:00 +0000
+date: 2025-07-16 01:00:00 +0000
 categories: features
 tags: [features, walkthrough, productivity, user-guide]
 image: '/images/608.jpg'
