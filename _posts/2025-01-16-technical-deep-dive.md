@@ -4,6 +4,7 @@ title: "RightNow Technical Deep Dive: Building in Public"
 date: 2025-01-16 05:00:00 +0000
 categories: technical
 tags: [development, flutter, architecture, open-source]
+image: '/images/612.jpg'
 ---
 
 # RightNow Technical Deep Dive: Building in Public

@@ -4,6 +4,7 @@ title: "Who RightNow is For: Target Audience & Real-World Use Cases"
 date: 2025-01-16 04:00:00 +0000
 categories: audience
 tags: [use-cases, demographics, productivity, workflows]
+image: '/images/611.jpg'
 ---
 
 # Who RightNow is For: Target Audience & Real-World Use Cases
