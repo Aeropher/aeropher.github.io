@@ -15,6 +15,10 @@ None of them are professional testers, and their method of testing is basically 
 
 I'm pretty proud of how far I've come with this project. It's my most successful home coding project so far, and I've been working on it since March/April 2024.
 
+### Latest Change: Task Reflection UX Improvement
+
+Based on Alpha feedback, I've removed the initial dialog that asked users whether they wanted to enable task reflection. Instead, there's now a checkbox at the bottom of the actual task reflection screen that allows users to disable it if they don't want to use it. New users shouldn't be asked to turn something on or off before they've even seen what it is!
+
 ---
 
 Welcome to the RightNow development hub! This page documents the journey of building RightNow, a modern Android app designed to help users make the most of their present moments.
