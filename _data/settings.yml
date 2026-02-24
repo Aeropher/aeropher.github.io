@@ -17,6 +17,8 @@ menu-settings:
       url: '/apps/'
     - title: 'RightNow'
       url: '/rightnow/'
+    - title: 'CV'
+      url: '/cv/'
     - title: 'Support Me'
       url: '/support-me/'
     - title: '<i class="fa-brands fa-github"></i> GitHub'
