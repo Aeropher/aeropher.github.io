@@ -6,6 +6,7 @@ categories: [productivity, rightnow, gamification]
 tags: [gamification, ux-design, flutter, mobile-development]
 image: assets/images/gamification.jpg
 featured: false
+canonical_url: https://blog.rtnw.app/blog/gamifying-backlog-grooming/
 ---
 
 Let's be honest: backlog grooming is about as exciting as cleaning your garage. It's necessary, but nobody actually wants to do it. That's why most task backlogs become digital junkyards—full of outdated tasks, vague ideas, and that "learn Spanish" task from 2019.

@@ -5,6 +5,7 @@ date: 2025-07-21 12:00:00 +0000
 author: Alex
 tags: [rightnow, patreon, indie-development, support]
 featured: true
+canonical_url: https://blog.rtnw.app/blog/launching-patreon-support-rightnow/
 ---
 
 After 6 months of building RightNow in public and countless hours of "vibe coding" with AI assistants, I'm excited to announce that I'm launching a Patreon to help sustain and accelerate development of the capacity-first productivity app that's changing how we think about task management.

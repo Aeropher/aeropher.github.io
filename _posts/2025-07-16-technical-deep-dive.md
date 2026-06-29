@@ -5,6 +5,7 @@ date: 2025-07-16 05:00:00 +0000
 categories: technical
 tags: [development, flutter, architecture, open-source]
 image: '/images/612.jpg'
+canonical_url: https://blog.rtnw.app/blog/technical-deep-dive/
 ---
 
 # RightNow Technical Deep Dive: Building in Public

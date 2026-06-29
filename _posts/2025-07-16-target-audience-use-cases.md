@@ -5,6 +5,7 @@ date: 2025-07-16 04:00:00 +0000
 categories: audience
 tags: [use-cases, demographics, productivity, workflows]
 image: '/images/611.jpg'
+canonical_url: https://blog.rtnw.app/blog/target-audience-use-cases/
 ---
 
 # Who RightNow is For: Target Audience & Real-World Use Cases

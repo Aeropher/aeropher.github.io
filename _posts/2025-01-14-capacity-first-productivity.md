@@ -6,6 +6,7 @@ categories: [productivity, rightnow, app-development]
 tags: [task-management, productivity, flutter, mobile-development]
 image: assets/images/capacity-first.jpg
 featured: false
+canonical_url: https://blog.rtnw.app/blog/capacity-first-productivity/
 ---
 
 If you've ever felt overwhelmed by your task list or ended the day wondering where all your time went, you might enjoy exploring a different approach to productivity. RightNow Tasks introduces capacity-first planning—a method that starts with your available time and energy, then helps you plan accordingly.

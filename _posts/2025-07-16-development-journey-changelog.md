@@ -5,6 +5,7 @@ date: 2025-07-16 02:00:00 +0000
 categories: development
 tags: [changelog, milestones, development, journey, progress]
 image: '/images/609.jpg'
+canonical_url: https://blog.rtnw.app/blog/development-journey-changelog/
 ---
 
 # Building RightNow: Development Journey & Progress Chronicle

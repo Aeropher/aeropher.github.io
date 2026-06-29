@@ -5,6 +5,7 @@ date: 2025-07-16 03:00:00 +0000
 categories: guides
 tags: [tutorial, getting-started, workflow]
 image: '/images/610.jpg'
+canonical_url: https://blog.rtnw.app/blog/getting-started-guide/
 ---
 
 # Getting Started with RightNow: Your First Day

@@ -6,6 +6,7 @@ categories: [development, rightnow, startup-life]
 tags: [alpha-testing, web-app, flutter-web, user-feedback, indie-dev]
 image: assets/images/alpha-testing.jpg
 featured: false
+canonical_url: https://blog.rtnw.app/blog/alpha-testing-friends-family/
 ---
 
 Last week, I did something terrifying. I sent a link to my half-baked, barely-functional app to my friends and family. "Hey, want to try RightNow?" I typed, my finger hovering over the send button for a solid minute.

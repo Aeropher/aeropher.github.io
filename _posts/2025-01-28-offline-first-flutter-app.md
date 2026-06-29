@@ -6,6 +6,7 @@ categories: [development, rightnow, flutter]
 tags: [flutter, firebase, hive, offline-first, mobile-development]
 image: images/612.jpg
 featured: true
+canonical_url: https://blog.rtnw.app/blog/offline-first-flutter-app/
 ---
 
 When we set out to build RightNow Tasks, one requirement was non-negotiable: it had to work flawlessly offline. Task management is most critical when you're on a plane, in a subway tunnel, or simply wanting to disconnect. Here's how we built a truly offline-first Flutter app that syncs seamlessly when connected.
