@@ -38,7 +38,7 @@ bundle exec jekyll build    # Build the site to _site directory
 ### Theme Customization
 - `_sass/`: Organized in numbered folders (0-settings, 1-tools, 2-base, 3-modules, 4-layouts)
 - `assets/js/theme-toggle.js`: Dark theme toggle functionality
-- `assets/css/style.scss`: Main stylesheet entry point
+- `_includes/main.scss`: Main stylesheet entry point, inlined into every page by `head.html`; it imports the `_sass/` partials (the CV page's styles are `_sass/4-layouts/_cv.scss`)
 
 ### Deployment
 - Manual deployment via `publish.bat` script (builds locally and pushes to GitHub)
