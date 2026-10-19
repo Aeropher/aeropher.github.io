@@ -48,8 +48,8 @@ I've spent {% assign career_years = site.time | date: '%s' | minus: 1375315200 |
 
 ### Principal Developer
 
-*Jan 2020 – Jun 2021 · Hexagon PPM · Swindon, then remote*<br>
-*Senior Application Engineer, Jan – Dec 2019*
+*Jul 2020 – Jun 2021 · Hexagon PPM · Swindon, then remote*<br>
+*Senior Application Engineer, Jan 2019 – Jul 2020*
 
 - Finished moving the CI/CD pipelines (build, release and L3 testing) off on-premises Jenkins and TFS onto Azure DevOps, then retired the Jenkins stages.
 - Orchestrated distributed L3 GUI test runs across dynamically provisioned Azure VMs, and pruned flaky UI tests as part of a shift-left strategy based on Microsoft's L0–L3 model.
@@ -58,7 +58,8 @@ I've spent {% assign career_years = site.time | date: '%s' | minus: 1375315200 |
 
 ### Application Engineer
 
-*Aug 2013 – Dec 2018 · Intergraph, later Hexagon PPM · Swindon*
+*Aug 2013 – Dec 2018 · Intergraph, later Hexagon PPM · Swindon*<br>
+*Joined as Associate Application Engineer*
 
 - Designed, built and ran the CI/CD pipelines in Jenkins and TFS for several hotfix code streams, using PowerShell, Groovy and batch, and moved critical jobs onto a new Jenkins server.
 - Scaled GUI acceptance testing to a 20-VM fleet and split test namespaces and unit tests into parallel runs to shorten the cycle.
