@@ -5,16 +5,12 @@ permalink: /software-engineering/
 image: '/images/100.jpg'
 ---
 
-# Software Engineering Resources and Guides
+# Software Engineering
 
-Welcome to my Software Engineering hub! Here you'll find articles, tutorials, and resources covering a wide range of topics including:
+Notes and guides from my day job and side projects, covering:
 
-- **DevOps & Infrastructure**: Azure, Terraform, Kubernetes, CI/CD pipelines
-- **Programming Languages**: Python, JavaScript, Go, PowerShell, and more
-- **Web Development**: Frontend frameworks, backend systems, APIs
-- **Cloud Architecture**: AWS, Azure, GCP best practices
-- **Automation & Scripting**: PowerShell, Bash, Python automation
-- **Software Design**: Patterns, principles, and best practices
-- **Development Tools**: Git, Docker, VS Code, and productivity tools
-
-Whether you're interested in infrastructure as code, building scalable applications, or exploring new programming paradigms, you'll find practical guides and real-world insights here.
+- DevOps and infrastructure: Azure, Terraform and OpenTofu, Azure DevOps pipelines
+- PowerShell, treated as a real language with modules, tests and standards
+- App development with Flutter and Dart
+- AI-assisted development and the tooling around it
+- Git, Docker, VS Code and the rest of the toolbox

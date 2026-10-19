@@ -5,48 +5,29 @@ permalink: /apps/
 image: '/images/theme_projects.jpg'
 ---
 
-# My App Development Journey
+# Apps
 
-Welcome to my apps page! Here you'll find information about the mobile and web applications I'm developing.
+## RightNow
 
-## 📱 Current Projects
+A capacity-first productivity app: plan your day around the time you actually have. After years in backend and infrastructure work, I picked up Flutter and Dart from scratch to build the task app I wanted.
 
-### RightNow (In Development)
+**Status:** live on the [App Store](https://apps.apple.com/gb/app/rightnow/id6747011987) and [the web](https://rtnw.app). Android is in testing.
 
-A better todo app that I'm building to scratch my own itch. After years in backend DevOps, I decided to dive into Flutter and create the task management app I've always wanted.
+**Stack:** Flutter, Dart, Riverpod, Hive, Firebase, GitHub Actions.
 
-**Status**: Internal testing on Google Play Store
+[More about RightNow](/rightnow/) · [Dev blog](https://blog.rtnw.app)
 
-**Tech Stack**:
-- Flutter (cross-platform)
-- Firebase backend
-- GitHub Actions for CI/CD
+## How I build apps
 
-[Read about my development journey](/app-part-1-vibe-coding-and-android-development)
+- Build what you need. Every app should solve a problem I actually have.
+- Use AI assistants, but understand and own the code they help write.
+- Cross-platform first. One Flutter codebase covers iOS, Android and the web.
 
-### Future Projects
+## Posts about app development
 
-More apps coming soon! I'm particularly interested in:
-- Productivity tools
-- Utility applications
-- Creative tools for content creators
+- [App Part 1: Vibe Coding and Android Development](/android-app-dev-1)
 
-## 🛠️ Development Philosophy
+## Privacy and support
 
-As someone who's spent 10+ years in backend and infrastructure, diving into app development has been both challenging and rewarding. I believe in:
-
-- **Building what you need**: Every app should solve a real problem
-- **Learning by doing**: Using AI assistants wisely while understanding the code
-- **Cross-platform first**: Why build twice when you can build once?
-
-## 📚 Blog Posts About App Development
-
-Check out my posts about app development:
-- [App Part 1: Vibe Coding and Android Development](/app-part-1-vibe-coding-and-android-development)
-
-## 🔗 Privacy & Support
-
-- [RightNow Privacy Policy](/rightnow-privacy-policy/)
-- [RightNow Delete Account](/rightnow-delete-account/)
-
-Stay tuned for updates as I continue this app development journey!
+- [RightNow privacy policy](/rightnow-privacy-policy/)
+- [RightNow delete account](/rightnow-delete-account/)
