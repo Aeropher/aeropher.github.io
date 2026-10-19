@@ -2,7 +2,6 @@
 layout: page
 title: CV
 permalink: /cv/
-image: '/images/60.jpg'
 ---
 
 # Alex Henderson
