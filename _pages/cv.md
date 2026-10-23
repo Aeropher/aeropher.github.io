@@ -38,7 +38,7 @@ image: '/images/16.jpg'
   <li><span class="cv-shift__from">Scattered repositories</span><span class="cv-shift__arrow">→</span><span class="cv-shift__to">One consolidated codebase</span></li>
 </ul>
 
-<p class="cv-note">PowerShell is my primary language, written to the standards and test coverage I'd expect of C#. I lead AI adoption for the team through reusable skills, with people still reviewing and owning the result. I still love writing code, and I get as much out of mentoring engineers and making the people around me more effective.</p>
+<p class="cv-note">PowerShell is my primary language, written to the standards and test coverage I'd expect of C#. I lead AI adoption for the team through reusable Claude Code skills, with people still reviewing and owning the result, and I've used and assessed GitHub Copilot and other models along the way. I love writing code, and I get as much out of mentoring engineers and making the people around me more effective.</p>
 
 <h2 class="cv-section">Experience</h2>
 
@@ -55,7 +55,7 @@ Technical lead, and Scrum Master since 2024, for a fully remote team of platform
 - **Designed two generations of the platform architecture.** The first gave every tenant its own Terraform workspace, and the current design still rests on it. The second pulled the scattered repositories into one codebase with CI/CD that builds versioned packages and releases them to every ring, so a change that needed several coordinated PRs is now one PR.
 - **Built the first multi-tenant pipelines, R&D to production, in 2022:** a JSON change request goes in, Terraform runs, and the outputs are published for the rest of the platform. Then the organisation pipeline and Terraform modules that route customer traffic through Azure Front Door.
 - **Led the move from Terraform Cloud to Scalr/OpenTofu** when the TFC contract ended, from proof of concept to go-live in every ring, moving the platform onto the consolidated codebase in the same pass.
-- **Wrote about 40 reusable AI skills and slash commands** covering authoring, testing, review, documentation, verification and work-item flow, and taught the team to use them ahead of a top-down AI mandate. AI drafts; people review and confirm.
+- **Wrote about 40 reusable Claude Code skills and slash commands** covering authoring, testing, review, documentation, verification and work-item flow, and taught the team to use them ahead of a top-down AI mandate. AI drafts; people review and confirm.
 
 <details class="cv-more" markdown="1">
 <summary>More from this role</summary>
@@ -109,7 +109,7 @@ Technical lead, and Scrum Master since 2024, for a fully remote team of platform
 </details>
 </div>
 
-<div class="cv-role" markdown="1">
+<div class="cv-role cv-web-only" markdown="1">
 <h3 class="cv-role__title">Application Engineer (Industrial Placement)</h3>
 <p class="cv-role__meta"><span class="cv-pill">2011 – 2012</span><span class="cv-pill">Intergraph</span><span class="cv-pill">Swindon</span></p>
 
@@ -119,11 +119,11 @@ Technical lead, and Scrum Master since 2024, for a fully remote team of platform
 
 </div>
 
-<div class="cv-aside" markdown="1">
+<div class="cv-aside cv-web-only" markdown="1">
 **One company, many names.** Intergraph Process, Power & Marine (owned by Hexagon AB since 2010) became **Hexagon PPM** in 2017, then part of Hexagon Asset Lifecycle Intelligence, and separated from Hexagon as **Octave** in May 2026. It makes asset lifecycle software for energy, utilities and process industries: SmartPlant Foundation and SDx on-premises, and a multi-tenant SaaS platform on Azure. The role kept changing, from product developer to release and test engineering, Azure infrastructure, then platform architecture and leading the team. The stack changed several times too, usually because I was the one changing it.
 </div>
 
-<h2 class="cv-section">Side projects</h2>
+<h2 class="cv-section">Independent projects</h2>
 
 <div class="cv-cards">
   <div class="cv-card cv-card--feature">
@@ -132,22 +132,22 @@ Technical lead, and Scrum Master since 2024, for a fully remote team of platform
     <p class="cv-tags"><span>Flutter</span><span>Riverpod</span><span>Dart</span><span>Hive</span><span>Firebase</span></p>
     <p class="cv-card__links"><a class="cv-btn" href="/rightnow/">About RightNow</a><a class="cv-btn" href="https://apps.apple.com/gb/app/rightnow/id6747011987">App Store</a><a class="cv-btn" href="https://blog.rtnw.app">Dev blog</a></p>
   </div>
-  <div class="cv-card">
+  <div class="cv-card cv-web-only">
     <h3 class="cv-card__title">Damson</h3>
     <p>A 3D-printed hexapod robot, on the back burner. The plan is reinforcement learning in NVIDIA Isaac Sim, then sim-to-real transfer.</p>
     <p class="cv-tags"><span>Python</span><span>Isaac Sim</span><span>3D printing</span></p>
   </div>
-  <div class="cv-card">
+  <div class="cv-card cv-web-only">
     <h3 class="cv-card__title">Pala</h3>
     <p>DIY e-readers. I use them every day.</p>
     <p class="cv-tags"><span>Hardware</span></p>
   </div>
-  <div class="cv-card">
+  <div class="cv-card cv-web-only">
     <h3 class="cv-card__title">Health Dashboard</h3>
     <p>Fitbit, Ultrahuman Ring and Renpho scale metrics, pulled together by n8n workflows on the home server.</p>
     <p class="cv-tags"><span>n8n</span><span>InfluxDB</span><span>Grafana</span></p>
   </div>
-  <div class="cv-card">
+  <div class="cv-card cv-web-only">
     <h3 class="cv-card__title">Home Server</h3>
     <p>Self-hosted automation stack on a Mac Mini, with Cloudflare tunnels for remote access.</p>
     <p class="cv-tags"><span>Docker</span><span>n8n</span><span>Cloudflare</span></p>
@@ -161,16 +161,16 @@ Technical lead, and Scrum Master since 2024, for a fully remote team of platform
   <dt>CI/CD</dt><dd class="cv-tags"><span>Azure DevOps (YAML &amp; Classic)</span><span>Custom tasks</span><span>Jenkins</span><span>TFS/TFVC</span><span>GitHub Actions</span></dd>
   <dt>Azure</dt><dd class="cv-tags"><span>Front Door &amp; WAF</span><span>Azure SQL (Hyperscale, elastic pools)</span><span>DevTest Labs</span><span>VMs &amp; scale sets</span><span>Key Vault</span><span>Entra ID</span><span>Networking</span></dd>
   <dt>Languages</dt><dd class="cv-tags"><span class="is-key">PowerShell</span><span>C#</span><span>Dart</span><span>VB.NET</span><span>HCL</span><span>SQL</span><span>Groovy</span><span>TypeScript</span><span>Python</span><span>Bash</span></dd>
-  <dt>AI &amp; tooling</dt><dd class="cv-tags"><span>AI skill authoring</span><span>Claude / MCP integration</span><span>AI-assisted verification &amp; review</span></dd>
+  <dt>AI &amp; tooling</dt><dd class="cv-tags"><span>AI skill authoring</span><span class="is-key">Claude Code</span><span>MCP integration</span><span>GitHub Copilot</span><span>Model assessment</span><span>AI-assisted verification &amp; review</span></dd>
   <dt>Testing</dt><dd class="cv-tags"><span>Pester</span><span>UI Automation / Coded UI</span><span>Protractor</span><span>MSTest</span><span>L0–L3 strategy</span></dd>
   <dt>Release &amp; packaging</dt><dd class="cv-tags"><span>WiX/MSI</span><span>Code signing</span><span>NuGet feeds</span><span>Versioned module packages</span><span>Hotfix process</span></dd>
   <dt>Practices</dt><dd class="cv-tags"><span>Agile/Scrum</span><span>GitOps</span><span>IaC</span><span>Shift-left testing</span><span>ISO 27001 controls</span><span>Remote leadership</span></dd>
 </dl>
 
-<h2 class="cv-section">What I use</h2>
+<h2 class="cv-section cv-web-only">What I use</h2>
 
-<dl class="cv-skills">
-  <dt>Daily</dt><dd class="cv-tags"><span>VS Code</span><span>Azure DevOps</span><span>Terraform / Scalr</span><span>PowerShell</span><span>Git</span><span>Docker</span><span>Claude &amp; AI skills</span></dd>
+<dl class="cv-skills cv-web-only">
+  <dt>Daily</dt><dd class="cv-tags"><span>VS Code</span><span>Azure DevOps</span><span>Terraform / Scalr</span><span>PowerShell</span><span>Git</span><span>Docker</span><span>Claude Code</span></dd>
   <dt>Home lab</dt><dd class="cv-tags"><span>Mac Mini</span><span>n8n</span><span>InfluxDB + Grafana</span><span>Docker Compose</span><span>Cloudflare Tunnels</span></dd>
   <dt>For fun</dt><dd class="cv-tags"><span>Flutter / Dart</span><span>NVIDIA Isaac Sim</span><span>3D printer</span><span>Guitar &amp; piano</span></dd>
 </dl>
@@ -183,7 +183,7 @@ Technical lead, and Scrum Master since 2024, for a fully remote team of platform
     <p class="cv-role__meta"><span class="cv-pill">2009 – 2013</span><span class="cv-pill">Nottingham Trent University</span></p>
     <p>Sandwich course with an 11-month placement at Intergraph. Final year project: NLP, data mining and information extraction to generate character and location profiles automatically from digital novels (Python, VB.NET).</p>
   </div>
-  <div class="cv-edu__item">
+  <div class="cv-edu__item cv-web-only">
     <p class="cv-edu__title">A Levels</p>
     <p class="cv-role__meta"><span class="cv-pill">2009</span><span class="cv-pill">Lady Manners School, Bakewell</span></p>
     <p>Mathematics, Applied ICT, Music Technology, General Studies.</p>
@@ -194,6 +194,10 @@ Technical lead, and Scrum Master since 2024, for a fully remote team of platform
 
 I'm learning guitar and piano through [Pickup Music](https://www.pickupmusic.com/). I like craft beer and whisky, play D&D irregularly, make Minecraft content with [Caffeine Addled Minds](/caffeine-addled-minds/), and follow Sheffield Wednesday.
 
+<p class="cv-web-only">I read a lot, or more honestly listen, and <a href="/everything-ive-read">everything I've read so far</a> is on the blog. <em>Deep Work</em> is the one I've gone back to twice, I'll read anything Richard Osman writes, and I reread <em>The Lord of the Rings</em> more often than is reasonable. I also <a href="/3d-printing-journey">3D print</a> far more than I model.</p>
+
+<p class="cv-colophon">Built with a little help from Claude Code. The career is all mine.</p>
+
 <script>
   // Full years since rejoining Intergraph in August 2013, so the CV stays current between builds
   (function () {
@@ -201,11 +205,4 @@ I'm learning guitar and piano through [Pickup Music](https://www.pickupmusic.com
     var years = now.getFullYear() - start.getFullYear() - (now < new Date(now.getFullYear(), 7, 1) ? 1 : 0);
     document.querySelectorAll('.career-years').forEach(function (el) { el.textContent = years; });
   })();
-  // Printing (or saving as PDF) shows everything, including the folded sections
-  window.addEventListener('beforeprint', function () {
-    document.querySelectorAll('details.cv-more').forEach(function (d) { d.dataset.wasOpen = d.open; d.open = true; });
-  });
-  window.addEventListener('afterprint', function () {
-    document.querySelectorAll('details.cv-more').forEach(function (d) { d.open = d.dataset.wasOpen === 'true'; });
-  });
 </script>

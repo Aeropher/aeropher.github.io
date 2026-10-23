@@ -80,6 +80,8 @@ featured: true/false
 
 ## Important Notes
 
+- **The `/cv/` page has two audiences.** On screen it's a showcase for anyone who comes across the site: personal, linking to posts, with folded detail. Its **Save as PDF** output is the recruiter CV and must stay at **two A4 pages**. Anything showcase-only gets the `cv-web-only` class, which the print stylesheet in `_sass/4-layouts/_cv.scss` hides, along with the `details.cv-more` sections. After changing the CV, rebuild and print to PDF with headless Chrome to check the page count.
+
 - The site uses Font Awesome for icons
 - Disqus comments are configured but may need identifier setup
 - Mailchimp integration is available but needs configuration
