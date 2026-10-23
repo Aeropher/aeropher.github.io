@@ -13,8 +13,6 @@ menu-settings:
       url: '/'
     - title: 'Caffeine Addled Minds'
       url: '/caffeine-addled-minds/'
-    - title: 'Apps'
-      url: '/apps/'
     - title: 'RightNow'
       url: '/rightnow/'
     - title: 'CV'

@@ -11,7 +11,7 @@ image: '/images/16.jpg'
   <div>
     <h1 class="cv-head__name">Alex Henderson</h1>
     <p class="cv-head__role">Software Lead &amp; Scrum Master at Octave</p>
-    <p class="cv-head__links">Sheffield, UK · <a href="https://github.com/aeropher">GitHub</a> · <a href="/rightnow/">RightNow</a></p>
+    <p class="cv-head__links">Sheffield, UK · <a href="https://github.com/aeropher">GitHub</a> · <a href="https://blog.rtnw.app">RightNow</a></p>
   </div>
   <button type="button" class="cv-print" onclick="window.print()"><i class="fa-solid fa-file-pdf"></i> Save as PDF</button>
 </div>
@@ -24,7 +24,7 @@ image: '/images/16.jpg'
   <div class="cv-stat"><span class="cv-stat__num">40k</span><span class="cv-stat__label">lines of Dart in an app I shipped</span></div>
 </div>
 
-<p class="cv-lead">I lead a remote platform engineering team that builds the infrastructure as code and Azure DevOps CI/CD behind every customer environment on a multi-tenant SaaS platform, and I've designed two generations of its architecture. Outside work I build my own things, most visibly <a href="/rightnow/">RightNow</a>, a 40,000-line Flutter app on the App Store.</p>
+<p class="cv-lead">I lead a remote platform engineering team that builds the infrastructure as code and Azure DevOps CI/CD behind every customer environment on a multi-tenant SaaS platform, and I've designed two generations of its architecture. Outside work I build my own things, most visibly <a href="https://blog.rtnw.app">RightNow</a>, a 40,000-line Flutter app on the App Store.</p>
 
 <h2 class="cv-section">Transitions I've spearheaded</h2>
 
@@ -129,10 +129,10 @@ Technical lead, and Scrum Master since 2024, for a fully remote team of platform
 
 <div class="cv-cards">
   <div class="cv-card cv-card--feature">
-    <h3 class="cv-card__title"><a href="/rightnow/">RightNow</a></h3>
+    <h3 class="cv-card__title"><a href="https://blog.rtnw.app">RightNow</a></h3>
     <p>A capacity-first productivity app: plan your day around the time you actually have. 40,000+ lines of Dart with 10,000 lines of tests, offline-first, CI/CD via GitHub Actions. On iOS and the web, with Android in testing. Built in public.</p>
     <p class="cv-tags"><span>Flutter</span><span>Riverpod</span><span>Dart</span><span>Hive</span><span>Firebase</span></p>
-    <p class="cv-card__links"><a class="cv-btn" href="/rightnow/">About RightNow</a><a class="cv-btn" href="https://apps.apple.com/gb/app/rightnow/id6747011987">App Store</a><a class="cv-btn" href="https://blog.rtnw.app">Dev blog</a></p>
+    <p class="cv-card__links"><a class="cv-btn" href="https://apps.apple.com/gb/app/rightnow/id6747011987">App Store</a><a class="cv-btn" href="https://blog.rtnw.app">Dev blog</a></p>
   </div>
   <div class="cv-card cv-web-only">
     <h3 class="cv-card__title">Damson</h3>
