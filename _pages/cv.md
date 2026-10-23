@@ -18,7 +18,7 @@ image: '/images/16.jpg'
 
 <div class="cv-stats">
   <div class="cv-stat"><span class="cv-stat__num career-years">{{ career_years }}</span><span class="cv-stat__label">years on one product family</span></div>
-  <div class="cv-stat"><span class="cv-stat__num">5</span><span class="cv-stat__label">platform transitions led</span></div>
+  <div class="cv-stat"><span class="cv-stat__num">5</span><span class="cv-stat__label">platform transitions spearheaded</span></div>
   <div class="cv-stat"><span class="cv-stat__num">~270</span><span class="cv-stat__label">Terraform pipeline runs a day</span></div>
   <div class="cv-stat"><span class="cv-stat__num">~40</span><span class="cv-stat__label">AI skills written for the team</span></div>
   <div class="cv-stat"><span class="cv-stat__num">40k</span><span class="cv-stat__label">lines of Dart in an app I shipped</span></div>
@@ -26,7 +26,7 @@ image: '/images/16.jpg'
 
 <p class="cv-lead">I lead a remote platform engineering team that builds the infrastructure as code and Azure DevOps CI/CD behind every customer environment on a multi-tenant SaaS platform, and I've designed two generations of its architecture. Outside work I build my own things, most visibly <a href="/rightnow/">RightNow</a>, a 40,000-line Flutter app on the App Store.</p>
 
-<h2 class="cv-section">Transitions I've led</h2>
+<h2 class="cv-section">Transitions I've spearheaded</h2>
 
 <p class="cv-note">Each time: find where the current approach has hit its ceiling, evaluate the alternatives, build the replacement, prove it in production and bring the team onto it.</p>
 
@@ -54,7 +54,7 @@ Technical lead, and Scrum Master since 2024, for a fully remote team of platform
 
 - **Designed two generations of the platform architecture.** The first gave every tenant its own Terraform workspace, and the current design still rests on it. The second pulled the scattered repositories into one codebase with CI/CD that builds versioned packages and releases them to every ring, so a change that needed several coordinated PRs is now one PR.
 - **Built the first multi-tenant pipelines, R&D to production, in 2022:** a JSON change request goes in, Terraform runs, and the outputs are published for the rest of the platform. Then the organisation pipeline and Terraform modules that route customer traffic through Azure Front Door.
-- **Led the move from Terraform Cloud to Scalr/OpenTofu** when the TFC contract ended, from proof of concept to go-live in every ring, moving the platform onto the consolidated codebase in the same pass.
+- **Spearheaded the move from Terraform Cloud to Scalr/OpenTofu** when the TFC contract ended, from proof of concept to go-live in every ring, moving the platform onto the consolidated codebase in the same pass.
 - **Wrote about 40 reusable Claude Code skills and slash commands** covering authoring, testing, review, documentation, verification and work-item flow, and taught the team to use them ahead of a top-down AI mandate. AI drafts; people review and confirm.
 
 <details class="cv-more" markdown="1">
@@ -95,8 +95,8 @@ Technical lead, and Scrum Master since 2024, for a fully remote team of platform
 <p class="cv-role__prev">Joined as Associate Application Engineer</p>
 
 - **Designed, built and ran CI/CD in Jenkins and TFS** for several hotfix code streams, using PowerShell, Groovy and batch, and moved critical jobs onto a new Jenkins server.
-- **Took GUI acceptance testing from one test box to 20 on-premises VMs,** distributing the tests dynamically so a run that took 12 hours sequentially finished in 2–3. Also split test namespaces and unit tests into parallel runs.
-- **Moved L3 GUI tests from Jenkins to Azure DevTest Labs** in 2018, which led into the Azure DevOps work above.
+- **Took GUI acceptance testing from one test box to 20 on-premises VMs,** distributing the tests dynamically so a run that took 12 hours sequentially finished in 2–3.
+- **Owned the yearly major release on physical media,** fully tested and bundled before it shipped.
 
 <details class="cv-more" markdown="1">
 <summary>More from this role</summary>
@@ -104,7 +104,9 @@ Technical lead, and Scrum Master since 2024, for a fully remote team of platform
 - **Core product development** on SmartPlant Foundation in C# and VB.NET, including the Upgrade Wizard and Oracle/SQL Server upgrade scripts.
 - **Owned the WiX/MSI installer:** removed FlexLM licensing, added prerequisite checks, and handled serial numbers and code signing for each major release.
 - **Monthly release-to-cert and hotfix packaging** for several code streams at once (5.x to 7.x), including export compliance.
-- **Led daily test triage from 2016** and onboarded new team members onto the build and test tooling.
+- **Split test namespaces and unit tests into parallel runs.**
+- **Moved L3 GUI tests from Jenkins to Azure DevTest Labs** in 2018, which led into the Azure DevOps work above.
+- **Ran daily test triage** for several years and onboarded new team members onto the build and test tooling.
 
 </details>
 </div>
