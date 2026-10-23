@@ -4,7 +4,7 @@ title: "Capacity-First Planning: A Fresh Approach to Daily Task Management"
 date: 2025-01-14
 categories: [productivity, rightnow, app-development]
 tags: [task-management, productivity, flutter, mobile-development]
-image: assets/images/capacity-first.jpg
+image: '/images/headers/capacity-first-productivity.png'
 featured: false
 canonical_url: https://blog.rtnw.app/blog/capacity-first-productivity/
 ---

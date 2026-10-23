@@ -5,6 +5,7 @@ date: 2026-10-13 08:00:00 +0100
 author: Alex
 tags: [books, reading]
 featured: false
+image: '/images/headers/everything-ive-read.png'
 ---
 
 ## Where this came from

@@ -4,7 +4,7 @@ title: "Shipping Your Baby: The Raw Truth About Alpha Testing with Friends and F
 date: 2025-02-04
 categories: [development, rightnow, startup-life]
 tags: [alpha-testing, web-app, flutter-web, user-feedback, indie-dev]
-image: assets/images/alpha-testing.jpg
+image: '/images/headers/alpha-testing-friends-family.png'
 featured: false
 canonical_url: https://blog.rtnw.app/blog/alpha-testing-friends-family/
 ---

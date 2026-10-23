@@ -4,8 +4,6 @@ title: Fun
 permalink: /fun/
 ---
 
-# Fun
-
 This is where I share content that doesn't fit neatly into other categories - opinion pieces, jokes, random thoughts, and other fun stuff that's on my mind.
 
 Check back for entertaining content that breaks from the technical focus of other sections!

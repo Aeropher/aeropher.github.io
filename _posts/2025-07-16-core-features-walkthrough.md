@@ -4,7 +4,7 @@ title: "Core Features Walkthrough: The Complete RightNow Experience"
 date: 2025-07-16 01:00:00 +0000
 categories: features
 tags: [features, walkthrough, productivity, user-guide]
-image: '/images/608.jpg'
+image: '/images/headers/core-features-walkthrough.png'
 canonical_url: https://blog.rtnw.app/blog/core-features-walkthrough/
 ---
 

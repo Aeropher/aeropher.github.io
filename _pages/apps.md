@@ -5,8 +5,6 @@ permalink: /apps/
 image: '/images/theme_projects.jpg'
 ---
 
-# Apps
-
 ## RightNow
 
 A capacity-first productivity app: plan your day around the time you actually have. After years in backend and infrastructure work, I picked up Flutter and Dart from scratch to build the task app I wanted.

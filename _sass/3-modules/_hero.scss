@@ -24,7 +24,7 @@
 }
 
 .hero__image {
-  min-height: 664px;
+  min-height: 360px;
   user-select: none;
   background-color: $dark;
   img {
@@ -36,21 +36,34 @@
   }
 
   @media only screen and (max-width: $desktop) {
-    min-height: 620px;
+    min-height: 340px;
   }
 
   @media only screen and (max-width: $tablet) {
-    min-height: 500px;
+    min-height: 300px;
   }
 
   @media only screen and (max-width: $mobile) {
-    min-height: 400px;
+    min-height: 260px;
+  }
+}
+
+/* The home page hero carries the welcome text and buttons, so it keeps more height */
+.hero--home .hero__image {
+  min-height: 560px;
+
+  @media only screen and (max-width: $tablet) {
+    min-height: 480px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    min-height: 440px;
   }
 }
 
 .hero__content {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%,-50%);
   z-index: 1;
@@ -83,7 +96,7 @@
 
 /* Hero Withou Image */
 .hero-without-image {
-  margin: 192px 0 96px;
+  margin: 150px 0 40px;
   .hero-inner {
     display: flex;
     align-items: center;
@@ -96,7 +109,7 @@
     text-align: center;
   }
   @media only screen and (max-width: $mobile) {
-    margin: 144px 0 48px;
+    margin: 120px 0 24px;
   }
 }
 

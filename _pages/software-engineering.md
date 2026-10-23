@@ -5,8 +5,6 @@ permalink: /software-engineering/
 image: '/images/100.jpg'
 ---
 
-# Software Engineering
-
 Notes and guides from my day job and side projects, covering:
 
 - DevOps and infrastructure: Azure, Terraform and OpenTofu, Azure DevOps pipelines

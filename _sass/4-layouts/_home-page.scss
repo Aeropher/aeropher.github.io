@@ -97,7 +97,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba($background-color, 0.6);
+    // Lighter at the top so the image reads; near-solid where the title sits
+    background: linear-gradient(180deg, rgba($background-color, 0.3) 0%, rgba($background-color, 0.6) 45%, rgba($background-color, 0.94) 100%);
     pointer-events: none;
   }
 

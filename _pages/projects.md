@@ -4,8 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
-
 Things I build outside my day job. For the day job, see my [CV](/cv/).
 
 | Project | What it is | Stack |

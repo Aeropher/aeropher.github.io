@@ -1,0 +1,216 @@
+<!doctype html>
+<!-- Post header images, drawn in HTML/SVG. Open with ?id=<name> to show one;
+     Build-Headers.ps1 screenshots each at 1600x900 into /images/headers/. -->
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  :root {
+    --rn-green: #66bb6a;
+    --rn-bg: #0e120f;
+    --rn-panel: #1c211d;
+    --rn-line: #2c332d;
+    --site-bg: #0f0e15;
+    --coral: #ff7b7b;
+    --text: #e8ece8;
+    --muted: #8b958c;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1600px; height: 900px; overflow: hidden; background: var(--rn-bg); }
+  body { font-family: "Segoe UI", Inter, system-ui, sans-serif; color: var(--text); }
+  .h { display: none; position: relative; width: 1600px; height: 900px; overflow: hidden;
+       background: radial-gradient(circle at 75% 20%, #17261a 0%, var(--rn-bg) 60%); }
+  .h.on { display: block; }
+  .h.site { background: radial-gradient(circle at 70% 15%, #241a24 0%, var(--site-bg) 60%); }
+
+  /* Phones rise from the bottom edge; the screens are cropped app-store captures */
+  .phone { position: absolute; width: 420px; border-radius: 34px; overflow: hidden;
+           box-shadow: 0 30px 80px rgba(0,0,0,.6); border: 2px solid #2a2f2b; }
+  .phone img { display: block; width: 100%; }
+  .icon { position: absolute; border-radius: 22%; box-shadow: 0 20px 60px rgba(0,0,0,.5); }
+  .word { position: absolute; font-weight: 800; letter-spacing: -2px; }
+  .label { font-size: 26px; fill: var(--muted); font-family: inherit; }
+  .strong { font-size: 30px; fill: var(--text); font-weight: 700; font-family: inherit; }
+  svg { position: absolute; inset: 0; }
+</style>
+</head>
+<body>
+
+<!-- Introduction to RightNow: icon, name, the capacity screen -->
+<div class="h" id="introduction-to-rightnow">
+  <img class="icon" src="assets/icon.png" style="left:260px; top:170px; width:380px">
+  <div class="phone" style="left:960px; top:140px; transform:rotate(-4deg)"><img src="assets/screen-1.png"></div>
+</div>
+
+<!-- Getting started: an empty day, then a planned one -->
+<div class="h" id="getting-started-guide">
+  <img class="icon" src="assets/icon.png" style="left:120px; top:120px; width:150px">
+  <div class="phone" style="left:420px; top:200px; transform:rotate(-5deg)"><img src="assets/screen-6.png"></div>
+  <svg viewBox="0 0 1600 900"><path d="M890 470 C 950 430, 1000 430, 1050 470" stroke="#66bb6a" stroke-width="8" fill="none" stroke-linecap="round"/><path d="M1035 440 L1055 474 L1018 482" stroke="#66bb6a" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <div class="phone" style="left:1090px; top:120px; transform:rotate(4deg)"><img src="assets/screen-1.png"></div>
+</div>
+
+<!-- Core features: four screens side by side -->
+<div class="h" id="core-features-walkthrough">
+  <div class="phone" style="width:330px; left:90px;  top:260px"><img src="assets/screen-1.png"></div>
+  <div class="phone" style="width:330px; left:470px; top:170px"><img src="assets/screen-2.png"></div>
+  <div class="phone" style="width:330px; left:850px; top:110px"><img src="assets/screen-4.png"></div>
+  <div class="phone" style="width:330px; left:1230px; top:200px"><img src="assets/screen-5.png"></div>
+</div>
+
+<!-- Who it's for: within capacity versus over it -->
+<div class="h" id="target-audience-use-cases">
+  <img class="icon" src="assets/icon.png" style="left:150px; top:140px; width:170px">
+  <div class="phone" style="left:520px; top:190px; transform:rotate(-3deg)"><img src="assets/screen-1.png"></div>
+  <div class="phone" style="left:1020px; top:130px; transform:rotate(3deg)"><img src="assets/screen-3.png"></div>
+</div>
+
+<!-- Alpha testing: the same app on several testers' phones -->
+<div class="h" id="alpha-testing-friends-family">
+  <div class="phone" style="width:360px; left:240px; top:260px; transform:rotate(-8deg)"><img src="assets/screen-2.png"></div>
+  <div class="phone" style="width:380px; left:620px; top:150px"><img src="assets/screen-1.png"></div>
+  <div class="phone" style="width:360px; left:1020px; top:260px; transform:rotate(8deg)"><img src="assets/screen-3.png"></div>
+</div>
+
+<!-- Patreon: RightNow plus support -->
+<div class="h" id="launching-patreon-support-rightnow">
+  <img class="icon" src="assets/icon.png" style="left:380px; top:270px; width:340px">
+  <svg viewBox="0 0 1600 900">
+    <path d="M800 410 v80 M760 450 h80" stroke="#8b958c" stroke-width="10" stroke-linecap="round"/>
+    <path d="M1060 600 C 900 500, 880 330, 990 320 C 1040 316, 1060 360, 1060 380 C 1060 360, 1080 316, 1130 320 C 1240 330, 1220 500, 1060 600 Z" fill="#ff7b7b"/>
+  </svg>
+</div>
+
+<!-- Capacity-first planning: tasks fill a fixed day; the last one overflows -->
+<div class="h" id="capacity-first-productivity">
+  <svg viewBox="0 0 1600 900">
+    <text class="label" x="160" y="250">TODAY'S CAPACITY</text>
+    <text class="strong" x="160" y="300" style="font-size:56px">6 hours</text>
+    <rect x="160" y="380" width="1100" height="120" rx="18" fill="#1c211d" stroke="#2c332d" stroke-width="3"/>
+    <g fill="#66bb6a">
+      <rect x="170" y="390" width="200" height="100" rx="10"/>
+      <rect x="378" y="390" width="130" height="100" rx="10" opacity=".85"/>
+      <rect x="516" y="390" width="270" height="100" rx="10"/>
+      <rect x="794" y="390" width="180" height="100" rx="10" opacity=".85"/>
+      <rect x="982" y="390" width="140" height="100" rx="10"/>
+    </g>
+    <rect x="1130" y="390" width="260" height="100" rx="10" fill="#e5534b"/>
+    <line x1="1260" y1="340" x2="1260" y2="560" stroke="#e8ece8" stroke-width="4" stroke-dasharray="12 10"/>
+    <g class="label" text-anchor="middle">
+      <text x="270" y="545">45m</text><text x="443" y="545">30m</text><text x="651" y="545">60m</text>
+      <text x="884" y="545">40m</text><text x="1052" y="545">30m</text>
+    </g>
+    <text x="1325" y="600" text-anchor="middle" style="font-size:28px; fill:#e5534b; font-weight:700">over capacity</text>
+  </svg>
+</div>
+
+<!-- Gamified grooming: pick one of two tasks; Elo moves both priorities -->
+<div class="h" id="gamifying-backlog-grooming">
+  <svg viewBox="0 0 1600 900">
+    <rect x="170" y="300" width="520" height="200" rx="22" fill="#1c211d" stroke="#66bb6a" stroke-width="4"/>
+    <text class="strong" x="215" y="385">Write blog post draft</text>
+    <text class="label" x="215" y="440">60m · Creative</text>
+    <rect x="910" y="300" width="520" height="200" rx="22" fill="#1c211d" stroke="#2c332d" stroke-width="3"/>
+    <text class="strong" x="955" y="385">Grocery shopping</text>
+    <text class="label" x="955" y="440">40m · Errands</text>
+    <circle cx="800" cy="400" r="70" fill="#0e120f" stroke="#2c332d" stroke-width="3"/>
+    <text x="800" y="414" text-anchor="middle" style="font-size:44px; font-weight:800; fill:#e8ece8">VS</text>
+    <text x="430" y="610" text-anchor="middle" style="font-size:54px; font-weight:800; fill:#66bb6a">+16</text>
+    <text x="1170" y="610" text-anchor="middle" style="font-size:54px; font-weight:800; fill:#e5534b">−16</text>
+    <text class="label" x="800" y="210" text-anchor="middle">WHICH MATTERS MORE?</text>
+  </svg>
+</div>
+
+<!-- Offline-first: the app reads and writes Hive on the device; Firebase syncs when online -->
+<div class="h" id="offline-first-flutter-app">
+  <svg viewBox="0 0 1600 900">
+    <rect x="150" y="150" width="620" height="600" rx="48" fill="none" stroke="#2c332d" stroke-width="4"/>
+    <text class="label" x="460" y="215" text-anchor="middle">ON THE DEVICE</text>
+    <rect x="230" y="260" width="460" height="150" rx="20" fill="#1c211d" stroke="#2c332d" stroke-width="3"/>
+    <text class="strong" x="460" y="345" text-anchor="middle">Flutter UI</text>
+    <path d="M440 420 v90 M480 510 v-90" stroke="#66bb6a" stroke-width="6"/>
+    <path d="M428 495 l12 18 l12 -18 M468 435 l12 -18 l12 18" stroke="#66bb6a" stroke-width="6" fill="none" stroke-linejoin="round"/>
+    <rect x="230" y="530" width="460" height="150" rx="20" fill="#66bb6a"/>
+    <text x="460" y="615" text-anchor="middle" style="font-size:34px; font-weight:800; fill:#0e120f">Hive</text>
+    <path d="M700 605 C 900 605, 950 450, 1120 450" stroke="#66bb6a" stroke-width="6" fill="none" stroke-dasharray="18 14"/>
+    <text class="label" x="905" y="640" text-anchor="middle">sync when online</text>
+    <path d="M1120 520 C 1050 520, 1050 420, 1120 420 C 1130 340, 1260 330, 1290 400 C 1380 380, 1440 470, 1380 520 Z" fill="#1c211d" stroke="#8b958c" stroke-width="4"/>
+    <text class="strong" x="1255" y="485" text-anchor="middle">Firebase</text>
+  </svg>
+</div>
+
+<!-- Technical deep dive: the stack, with CI alongside -->
+<div class="h" id="technical-deep-dive">
+  <svg viewBox="0 0 1600 900">
+    <g>
+      <rect x="220" y="170" width="760" height="120" rx="18" fill="#1c211d" stroke="#2c332d" stroke-width="3"/>
+      <text class="strong" x="600" y="242" text-anchor="middle">Flutter UI</text>
+      <rect x="220" y="310" width="760" height="120" rx="18" fill="#1c211d" stroke="#2c332d" stroke-width="3"/>
+      <text class="strong" x="600" y="382" text-anchor="middle">Riverpod state</text>
+      <rect x="220" y="450" width="760" height="120" rx="18" fill="#66bb6a"/>
+      <text x="600" y="522" text-anchor="middle" style="font-size:30px; font-weight:800; fill:#0e120f">Hive, on device</text>
+      <rect x="220" y="590" width="760" height="120" rx="18" fill="#1c211d" stroke="#8b958c" stroke-width="3" stroke-dasharray="14 10"/>
+      <text class="strong" x="600" y="662" text-anchor="middle">Firebase sync</text>
+    </g>
+    <rect x="1080" y="170" width="300" height="540" rx="18" fill="none" stroke="#2c332d" stroke-width="3"/>
+    <text class="label" x="1230" y="240" text-anchor="middle">GITHUB ACTIONS</text>
+    <g class="strong" text-anchor="middle">
+      <text x="1230" y="350">test</text><text x="1230" y="470">build</text><text x="1230" y="590">release</text>
+    </g>
+    <path d="M1230 375 v50 M1230 495 v50" stroke="#66bb6a" stroke-width="6"/>
+  </svg>
+</div>
+
+<!-- Development journey: the nine milestones, April to November 2024 -->
+<div class="h" id="development-journey-changelog">
+  <svg viewBox="0 0 1600 900">
+    <line x1="140" y1="430" x2="1460" y2="430" stroke="#2c332d" stroke-width="6"/>
+    <line x1="140" y1="430" x2="1460" y2="430" stroke="#66bb6a" stroke-width="6"/>
+    <g id="milestones"></g>
+  </svg>
+</div>
+
+<!-- Everything I've read: entries logged per year -->
+<div class="h site" id="everything-ive-read">
+  <svg viewBox="0 0 1600 900"><g id="reading"></g></svg>
+</div>
+
+<script>
+  const id = new URLSearchParams(location.search).get('id') || 'introduction-to-rightnow';
+  document.getElementById(id).classList.add('on');
+  const NS = 'http://www.w3.org/2000/svg';
+  const el = (tag, attrs, text) => {
+    const e = document.createElementNS(NS, tag);
+    for (const k in attrs) e.setAttribute(k, attrs[k]);
+    if (text !== undefined) e.textContent = text;
+    return e;
+  };
+
+  // Milestones from the "Development Journey" post
+  const milestones = [
+    ['Apr', 'Tasks'], ['May', 'Capacity'], ['May', 'Scheduling'], ['Jun', 'Today'], ['Jul', 'Search'],
+    ['Aug', 'Analytics'], ['Sep', 'Grooming'], ['Oct', 'Firebase'], ['Nov', 'Sign-in']
+  ];
+  const m = document.getElementById('milestones');
+  milestones.forEach(([month, name], i) => {
+    const x = 140 + i * 165, up = i % 2 === 0;
+    m.append(el('circle', { cx: x, cy: 430, r: 20, fill: '#66bb6a' }));
+    m.append(el('line', { x1: x, y1: up ? 410 : 450, x2: x, y2: up ? 330 : 530, stroke: '#2c332d', 'stroke-width': 4 }));
+    m.append(el('text', { x, y: up ? 310 : 575, 'text-anchor': 'middle', class: 'strong' }, name));
+    m.append(el('text', { x, y: up ? 270 : 615, 'text-anchor': 'middle', class: 'label' }, month));
+  });
+  m.append(el('text', { x: 140, y: 170, class: 'label' }, '2024'));
+
+  // Year sections of the "Everything I've Read" post (2026 is the year so far)
+  const reading = [[2017, 2], [2018, 2], [2019, 2], [2020, 1], [2021, 1], [2022, 5], [2023, 19], [2024, 8], [2025, 6], [2026, 6]];
+  const r = document.getElementById('reading'), base = 720, scale = 26, w = 90, gap = 40, left = 160;
+  r.append(el('line', { x1: left - 20, y1: base, x2: left + reading.length * (w + gap), y2: base, stroke: '#3a3442', 'stroke-width': 4 }));
+  reading.forEach(([year, n], i) => {
+    const x = left + i * (w + gap), h = n * scale;
+    r.append(el('rect', { x, y: base - h, width: w, height: h, rx: 10, fill: '#ff7b7b', opacity: year === 2023 ? 1 : .75 }));
+    r.append(el('text', { x: x + w / 2, y: base - h - 18, 'text-anchor': 'middle', class: 'strong' }, n));
+    r.append(el('text', { x: x + w / 2, y: base + 45, 'text-anchor': 'middle', class: 'label' }, year === 2026 ? '2026*' : year));
+  });
+</script>
+</body>
+</html>

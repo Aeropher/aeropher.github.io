@@ -5,8 +5,6 @@ permalink: /rightnow/
 image: assets/images/rightnow-hero.jpg
 ---
 
-# RightNow
-
 RightNow is a time-blocking app with a place to park everything else. You plan each day around the hours you actually have, and the app tells you when the day is full instead of letting the list grow forever.
 
 I started it in spring 2024 to scratch my own itch, and it's now the biggest thing I've built outside work: 40,000+ lines of Dart with 10,000 lines of tests.

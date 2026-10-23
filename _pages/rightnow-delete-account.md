@@ -4,8 +4,6 @@ title: Delete Your RightNow Account
 permalink: /rightnow-delete-account/
 ---
 
-# Delete Your RightNow Account
-
 If you want to delete your RightNow account and all associated data, follow these steps:
 
 ## How to Delete Your Account

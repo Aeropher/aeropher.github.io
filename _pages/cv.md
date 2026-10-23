@@ -32,7 +32,7 @@ image: '/images/16.jpg'
 
 <ul class="cv-shifts">
   <li><span class="cv-shift__from">Jenkins</span><span class="cv-shift__arrow">→</span><span class="cv-shift__to">Azure DevOps</span></li>
-  <li><span class="cv-shift__from">Manual GUI testing</span><span class="cv-shift__arrow">→</span><span class="cv-shift__to">20-VM automated fleet</span></li>
+  <li><span class="cv-shift__from">GUI tests on one box, 12 hours</span><span class="cv-shift__arrow">→</span><span class="cv-shift__to">20 VMs, 2–3 hours</span></li>
   <li><span class="cv-shift__from">No infrastructure as code</span><span class="cv-shift__arrow">→</span><span class="cv-shift__to">Terraform, ~270 runs a day</span></li>
   <li><span class="cv-shift__from">Terraform Cloud</span><span class="cv-shift__arrow">→</span><span class="cv-shift__to">Scalr / OpenTofu</span></li>
   <li><span class="cv-shift__from">Scattered repositories</span><span class="cv-shift__arrow">→</span><span class="cv-shift__to">One consolidated codebase</span></li>
@@ -95,7 +95,7 @@ Technical lead, and Scrum Master since 2024, for a fully remote team of platform
 <p class="cv-role__prev">Joined as Associate Application Engineer</p>
 
 - **Designed, built and ran CI/CD in Jenkins and TFS** for several hotfix code streams, using PowerShell, Groovy and batch, and moved critical jobs onto a new Jenkins server.
-- **Scaled GUI acceptance testing to a 20-VM fleet**, and split test namespaces and unit tests into parallel runs to shorten the cycle.
+- **Took GUI acceptance testing from one test box to 20 on-premises VMs,** distributing the tests dynamically so a run that took 12 hours sequentially finished in 2–3. Also split test namespaces and unit tests into parallel runs.
 - **Moved L3 GUI tests from Jenkins to Azure DevTest Labs** in 2018, which led into the Azure DevOps work above.
 
 <details class="cv-more" markdown="1">

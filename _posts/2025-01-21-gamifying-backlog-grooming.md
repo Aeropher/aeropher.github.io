@@ -4,7 +4,7 @@ title: "Gamifying Productivity: How RightNow Tasks Makes Backlog Grooming Fun"
 date: 2025-01-21
 categories: [productivity, rightnow, gamification]
 tags: [gamification, ux-design, flutter, mobile-development]
-image: assets/images/gamification.jpg
+image: '/images/headers/gamifying-backlog-grooming.png'
 featured: false
 canonical_url: https://blog.rtnw.app/blog/gamifying-backlog-grooming/
 ---

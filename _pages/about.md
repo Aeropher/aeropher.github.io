@@ -5,8 +5,6 @@ permalink: /about/
 image: '/images/60.jpg'
 ---
 
-# About
-
 I'm Alex, a software engineer in Sheffield. By day I lead a remote platform engineering team at Octave (formerly Hexagon), building the infrastructure as code and CI/CD behind a multi-tenant SaaS cloud platform. The full story is on my [CV](/cv/).
 
 Outside work I build my own things. The biggest is [RightNow](/rightnow/), a capacity-first productivity app that's [on the App Store](https://apps.apple.com/gb/app/rightnow/id6747011987) and [the web](https://rtnw.app). I also make Minecraft content with [Caffeine Addled Minds](/caffeine-addled-minds/), 3D print things, and have a hexapod robot on the back burner.

@@ -4,7 +4,7 @@ title: "Introduction to RightNow: A Capacity-First Productivity App"
 date: 2025-07-16 00:00:00 +0000
 categories: introduction
 tags: [productivity, task-management, flutter]
-image: '/images/600.jpg'
+image: '/images/headers/introduction-to-rightnow.png'
 canonical_url: https://blog.rtnw.app/blog/introduction-to-rightnow/
 ---
 
