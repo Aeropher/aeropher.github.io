@@ -2,7 +2,6 @@
 layout: page
 title: CV
 permalink: /cv/
-image: '/images/16.jpg'
 ---
 
 {% assign career_years = site.time | date: '%s' | minus: 1375315200 | divided_by: 31557600 %}

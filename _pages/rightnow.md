@@ -2,7 +2,6 @@
 layout: page
 title: RightNow
 permalink: /rightnow/
-image: assets/images/rightnow-hero.jpg
 ---
 
 RightNow is a time-blocking app with a place to park everything else. You plan each day around the hours you actually have, and the app tells you when the day is full instead of letting the list grow forever.

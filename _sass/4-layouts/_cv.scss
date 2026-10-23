@@ -316,8 +316,9 @@ p.cv-edu__title { font-size: 18px; font-weight: 700; color: $text-color; }
 
   body, body::after { background: #fff !important; }
   body::after { display: none; }
-  .header, .footer, .footer-widgets, main.content ~ *, .hero, .top, .cv-print, details.cv-more summary { display: none !important; }
+  .header, .footer, .footer-widgets, main.content ~ *, .hero, .hero-without-image, .top, .cv-print, details.cv-more summary { display: none !important; }
   .container, .page { max-width: none; padding: 0; margin: 0; }
+  main.content, .page__content > :last-child { margin-bottom: 0 !important; padding-bottom: 0 !important; }
 
   .page__content, .page__content p, .page__content li, .cv-stat__label { color: #333 !important; }
   .page__content h1, .page__content h2, .page__content h3, .page__content strong,
