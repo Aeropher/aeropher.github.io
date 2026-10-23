@@ -119,6 +119,21 @@
           color: $brand-color;
         }
       }
+
+      // The current page is lit up, so pages in the menu don't repeat their title
+      &.is-current .nav__link {
+        color: $brand-color;
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: -6px;
+          height: 2px;
+          border-radius: 2px;
+          background: $brand-color;
+        }
+      }
     }
   }
 
@@ -148,6 +163,10 @@
         &:hover {
           color: $brand-color;
         }
+      }
+
+      &.is-current .nav__link {
+        color: $brand-color;
       }
 
       @media (max-width: $mobile) {

@@ -111,6 +111,13 @@
   @media only screen and (max-width: $mobile) {
     margin: 120px 0 24px;
   }
+  // hide_title pages: just clear the header and let the content open the page
+  &--bare {
+    margin-bottom: 0;
+    @media only screen and (max-width: $mobile) {
+      margin-bottom: 0;
+    }
+  }
 }
 
 /* Hero Buttons */

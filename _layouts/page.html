@@ -3,6 +3,8 @@ layout: default
 ---
 
 <!-- begin hero -->
+{% assign in_menu = site.data.settings.menu-settings.menu-items | where: "url", page.url | size %}
+{% if in_menu > 0 or page.hide_title %}{% assign title_class = "hero__title screen-reader-text" %}{% else %}{% assign title_class = "hero__title" %}{% endif %}
 {% if page.image %}
 <section class="hero">
   <div class="hero__inner">
@@ -10,9 +12,13 @@ layout: default
       <img class="lazy" data-src="{{ page.image | relative_url }}" alt="{{ page.title }}">
     </div>
     <div class="hero__content">
-      <h1 class="hero__title">{{ page.title }}</h1>
+      <h1 class="{{ title_class }}">{{ page.title }}</h1>
     </div>
   </div>
+</section>
+{% elsif in_menu > 0 or page.hide_title %}
+<section class="hero-without-image hero-without-image--bare">
+  <h1 class="{{ title_class }}">{{ page.title }}</h1>
 </section>
 {% else %}
 <section class="hero-without-image">

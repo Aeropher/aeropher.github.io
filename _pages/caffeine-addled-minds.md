@@ -2,14 +2,11 @@
 layout: page
 title: Caffeine Addled Minds
 permalink: /caffeine-addled-minds/
-image: '/images/camlogos/logo_caffeine_addled_minds.png'
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
   <img src="/images/camlogos/logo_caffeine_addled_minds.png" alt="Caffeine Addled Minds Logo" style="max-width: 400px; width: 100%;">
 </div>
-
-# Welcome to Caffeine Addled Minds
 
 A creative media collective founded by two brothers, producing entertaining content across podcasts and YouTube.
 
